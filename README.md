@@ -4,7 +4,7 @@
 
 
 ## Project Overview
-This analysis investigates lending risk factors with a focus on metrics relevant to Buy Now, Pay Later (BNPL) services. Using loan data from 2007-2018, I analyzed default patterns across risk grades and debt-to-income ratios to identify key risk segments for financial services applications.
+This analysis investigates lending risk factors with a focus on metrics relevant to Buy Now, Pay Later (BNPL) services. Using loan data from 2007-2018, I analysed default patterns across risk grades and debt-to-income ratios to identify key risk segments for financial services applications.
 
 ## Key Findings
 
@@ -72,17 +72,17 @@ plt.savefig('risk_matrix.png')
 
 ## Next Steps
 With more BNPL-specific data, this analysis could be enhanced by:
-1. Incorporating repayment behavior on smaller, shorter-term loans
-2. Analyzing the impact of multiple concurrent BNPL commitments
+1. Incorporating repayment behaviour on smaller, shorter-term loans
+2. Analysing the impact of multiple concurrent BNPL commitments
 3. Developing an automated risk scoring system specifically calibrated for BNPL lending patterns
 
 ---
 
 ## About Me
-Final-year Computer Science student specializing in data analytics and financial risk modeling. Experienced in Python, SQL, and Power BI, with a focus on creating actionable insights from complex financial datasets. Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
+Final-year Computer Science student specialising in data analytics and financial risk modelling. Experienced in Python, SQL, and Power BI, with a focus on creating actionable insights from complex financial datasets. Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
 
 ## Repository Contents
 - `tabby_project.py`: Main analysis script
-- `default_by_grade_dti_heatmap.png`: Heat map visualization of default rates
+- `default_by_grade_dti_heatmap.png`: Heat map visualisation of default rates
 - `default_by_dti_range.png`: Bar chart of default rates by DTI
 - `risk_matrix.csv`: Exported risk segmentation data
