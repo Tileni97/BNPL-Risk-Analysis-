@@ -1,25 +1,24 @@
-# BNPL Risk Analysis Project
+# BNPL Risk Analysis: Identifying High-Risk Lending Segments
 
-![Default Rates by Grade and DTI - Heatmap](default_by_grade_dti_heatmap.png)
+![Risk Matrix Heatmap](https://github.com/Tileni97/BNPL-Risk-Analysis-/blob/main/Visuals/risk_matrix.png)
+
 
 ## Project Overview
 This analysis investigates lending risk factors with a focus on metrics relevant to Buy Now, Pay Later (BNPL) services. Using loan data from 2007-2018, I analyzed default patterns across risk grades and debt-to-income ratios to identify key risk segments for financial services applications.
 
 ## Key Findings
 
-### 1. Default Rate by Risk Grade
-Analysis revealed a clear correlation between assigned risk grades and default outcomes:
-- Grade A loans (highest quality) had default rates around 3-7%
-- Grade F loans showed default rates of 33-44%
-- Each grade deterioration showed approximately 5-10% increased default risk
+### 1. Risk Grade Analysis
+| Grade | Default Rate | Risk Multiplier |
+|-------|-------------|-----------------|
+| A     | 3-7%       | 1x (baseline)   |
+| F     | 33-44%     | 6x higher risk  |
 
-### 2. DTI as a Strong Risk Predictor
-![Default Rate by DTI Range](default_by_dti_range.png)
-
-The debt-to-income ratio proved to be a significant predictor of default risk:
-- DTI below 10%: ~13% default rate
-- DTI between 20-30%: ~20% default rate
-- DTI above 30%: ~25% default rate
+### 2. DTI Impact
+![DTI Analysis](Visuals/default_by_dti.png)
+- **<10% DTI**: 13% defaults
+- **20-30% DTI**: 20% defaults 
+- **>30% DTI**: 25% defaults (+92% risk)
 
 This progressive increase demonstrates how DTI thresholds could be effectively used in BNPL approval systems.
 
